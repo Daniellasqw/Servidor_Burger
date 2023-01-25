@@ -8,4 +8,4 @@ const port = process.env.PORT || 3200;
 server.use(middlewares);
 server.use(router);
 
-server.listenerCount(port)
+server.listen(port)
