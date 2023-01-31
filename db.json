@@ -1,9 +1,101 @@
 {
-    "notas":[
-        {
-            "id":1,
-            "titulo":"Estudar js",
-            "status":true
-        }
+  "cardapio": [
+    {
+      "id": 1,
+      "titulo": "Hambúrguer de Bacon",
+      "preco":"12,50"
+
+      
+    },
+    {
+      "id": 2,
+      "titulo": "Hambúrguer vegetariano",
+      "preco":"15,99"
+     
+    },
+    {
+      "id": 3,
+      "titulo": "Hambúrguer gourmet",
+      "preco":"18,50"
+      
+    },
+    {
+      "id": 4,
+      "titulo": "Smash burger",
+      "preco":"25,90"
+      
+    }
+  ],
+  "pedidos":
+ [
+      {
+        "id": 1,
+        "titulo": "Hambúrguer de Bacon, sem katchup",
+        "preco":"12,50",
+        "quantidade":4
+        
+  
+        
+      },
+      {
+        "id": 2,
+        "titulo": "Hambúrguer vegetariano, sem batata palha",
+        "preco":"15,99",
+        "quantidade":5
+        
+       
+      },
+      {
+        "id": 3,
+        "titulo": "Hambúrguer gourmet,com maionese",
+        "preco":"18,50",
+        "quantidade":2
+       
+        
+      },
+      {
+        "id": 4,
+        "titulo": "Smash burger",
+        "preco":"25,90",
+        "quantidade":3
+        
+        
+      }
     ]
+  ,
+  "comanda": [
+    {
+      "id": 1,
+      "titulo": "Hambúrguer de Bacon, sem katchup",
+      "preco":"12,50",
+      "quantidade":4,
+      "valorTotal": "50,00"
+
+      
+    },
+    {
+      "id": 2,
+      "titulo": "Hambúrguer vegetariano, sem batata palha",
+      "preco":"15,99",
+      "quantidade":5,
+      "valorTotal": "79,95"
+     
+    },
+    {
+      "id": 3,
+      "titulo": "Hambúrguer gourmet,com maionese",
+      "preco":"18,50",
+      "quantidade":2,
+      "valorTotal": "37,00"
+      
+    },
+    {
+      "id": 4,
+      "titulo": "Smash burger",
+      "preco":"25,90",
+      "quantidade":3,
+      "valorTotal": "77,70"
+      
+    }
+  ]
 }
